@@ -18,5 +18,3 @@ class Tz < Formula
     assert_match version.to_s, shell_output("#{bin}/tz -v")
   end
 end
-
-
