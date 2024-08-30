@@ -1,8 +1,8 @@
 class Tz < Formula
   desc "CLI time zone visualizer - forked from oz/tz"
   homepage "https://github.com/wyne/tz"
-  url "https://github.com/wyne/tz/archive/refs/tags/0.8.1.tar.gz"
-  sha256 "1a7e2cd1df0d4d095bf2b17b651a623e1f1e8b7511cafcaa5f4d298854578e1f"
+  url "https://github.com/wyne/tz/archive/refs/tags/0.9.0.tar.gz"
+  sha256 "cd6ec14866ef911f2fb0266dea3ab3d3263eeec226122c26cda0c920660ebf47"
   license "GPL-3.0-or-later"
   head "https://github.com/wyne/tz.git", branch: "main"
 
