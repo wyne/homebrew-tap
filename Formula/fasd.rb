@@ -1,4 +1,4 @@
-class Tz < Formula
+class Fasd < Formula
   desc "Command-line productivity booster, offers quick access to files and directories, inspired by autojump, z and v."
   homepage "https://github.com/wyne/fasd"
   url "https://github.com/wyne/fasd/archive/refs/tags/1.0.1.tar.gz"
