@@ -1,8 +1,8 @@
 class Fasder < Formula
   desc "Modern version of fasd productivity booster, offering quick access to files and directories"
   homepage "https://github.com/wyne/fasder"
-  url "https://github.com/wyne/fasder/archive/refs/tags/0.1.2.tar.gz"
-  sha256 "809c79aa03392613090ad9bc6b6c05f377a1f6e7f32469b608f2b3ec9c3bd02e"
+  url "https://github.com/wyne/fasder/archive/refs/tags/0.1.3.tar.gz"
+  sha256 "2e79032147fab137e219cbf225305f45273c6593a38858176b67ce40acdb224f"
   license "MIT"
   head "https://github.com/wyne/fasder.git", branch: "main"
 
