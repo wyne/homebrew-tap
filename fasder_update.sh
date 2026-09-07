@@ -5,26 +5,10 @@ set -euo pipefail
 REPO="wyne/fasder"
 TAP_FILE="Formula/fasder.rb"
 
-beta_flag=false
-
-# Parse options
-while [[ "$#" -gt 0 ]]
-do
-  case "$1" in
-    -b) beta_flag=true ;;
-    --beta) beta_flag=true ;;
-    *)
-      echo "Unknown option: ${1}" >&2
-      exit 1
-      ;;
-  esac
-  shift
-done
-
-# Check if the beta flag was set
-if [[ "${beta_flag}" == true ]]
+if [[ "$#" -gt 0 ]]
 then
-  TAP_FILE="Formula/fasderbeta.rb"
+  echo "Usage: $0" >&2
+  exit 1
 fi
 
 # Fetch the latest release version from GitHub API
