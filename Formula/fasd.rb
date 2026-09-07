@@ -1,5 +1,5 @@
 class Fasd < Formula
-  desc "Command-line productivity booster, offers quick access to files and directories, inspired by autojump, z and v."
+  desc "Command-line booster for quick access to files and directories"
   homepage "https://github.com/wyne/fasd"
   url "https://github.com/wyne/fasd/archive/refs/tags/1.0.1.tar.gz"
   sha256 "d89cef0dbabb9891255d210146fc5699038e7d3ac9c0f872355689eb34d99974"
